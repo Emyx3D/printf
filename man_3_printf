@@ -14,7 +14,7 @@ before compiling. The example is as follows;
 alex@ubuntu:~/c/printf$ cat main.c
 #include <limits.h>
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
  * main - Entry point
