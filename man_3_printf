@@ -1,20 +1,6 @@
-.TH man "18 October 2022" "0.01" "_printf man pagee"
-.SH NAME
-.B _printf
-- A re-creation of the printf function
-.SH SYNOPSIS
-It is necessary to #include "holberton.h" header to use the function.
-To demonstrate _printf, the example below is used. It is a main function
-contained in the file "main.c", located in the test directory that uses
-both "_printf" and "printf" to print to the stdout.
-The command "gcc -Wall -Wextra -Werror -pedantic -Wno-format *.c" should be used to compile.
-The main.c file should be in the same directory as _printf and its other supporting functions
-before compiling. The example is as follows;
-  
-alex@ubuntu:~/c/printf$ cat main.c
 #include <limits.h>
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
  * main - Entry point
